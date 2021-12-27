@@ -1,0 +1,20 @@
+server:
+  port: 8090
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+spring:
+  application:
+    name: revival-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: proxy-user
+          uri: lb://revival-user
+          predicates:
+            - Path=/user/**
+        - id: proxy-product
+          uri: lb://revival-product
+          predicates:
+            - Path=/product/**
