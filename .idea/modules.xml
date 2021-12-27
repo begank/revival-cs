@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/revival-common/revival-common.iml" filepath="$PROJECT_DIR$/revival-common/revival-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/revival-cs.iml" filepath="$PROJECT_DIR$/revival-cs.iml" />
       <module fileurl="file://$PROJECT_DIR$/revival-eureka/revival-eureka.iml" filepath="$PROJECT_DIR$/revival-eureka/revival-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/revival-gateway/revival-gateway.iml" filepath="$PROJECT_DIR$/revival-gateway/revival-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/revival-product/revival-product.iml" filepath="$PROJECT_DIR$/revival-product/revival-product.iml" />
       <module fileurl="file://$PROJECT_DIR$/revival-user/revival-user.iml" filepath="$PROJECT_DIR$/revival-user/revival-user.iml" />
     </modules>

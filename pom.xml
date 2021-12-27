@@ -30,6 +30,9 @@
 
     <modules>
         <module>revival-common</module>
+        <module>revival-eureka</module>
+        <module>revival-gateway</module>
+        <module>revival-product</module>
         <module>revival-user</module>
     </modules>
 
